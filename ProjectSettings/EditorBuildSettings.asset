@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes: []
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f3242d0e3bcf8e743acb353080e57c97, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 895f03d90048a0e45bcf66f012e95051, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8c744c4d6a5593f4abced42e99481973, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7e39aaafbc278b04da040d763bb559bd, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: bd3f4f19a4c93374bbe7e27b36fe0d78, type: 2}
