@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.microsoft.azure.spatial-anchors-sdk.core": "file:../OutsideAssets/com.microsoft.azure.spatial-anchors-sdk.core-2.14.1.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.windows": "file:../OutsideAssets/com.microsoft.azure.spatial-anchors-sdk.windows-2.14.1.tgz",
     "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.9.0.tgz",
     "com.microsoft.mrtk.graphicstools.unity": "file:MixedReality/com.microsoft.mrtk.graphicstools.unity-0.6.2.tgz",
     "com.microsoft.mrtk.tts.windows": "file:MixedReality/com.microsoft.mrtk.tts.windows-1.0.1.tgz",
@@ -12,6 +14,7 @@
     "com.unity.visualscripting": "1.8.0",
     "com.unity.xr.arcore": "5.0.7",
     "com.unity.xr.arkit": "5.0.7",
+    "com.unity.xr.management": "4.4.0",
     "com.unity.xr.openxr": "1.8.2",
     "org.mixedrealitytoolkit.accessibility": "file:MixedReality/org.mixedrealitytoolkit.accessibility-1.0.0-pre.18.tgz",
     "org.mixedrealitytoolkit.audio": "file:MixedReality/org.mixedrealitytoolkit.audio-3.0.0.tgz",
@@ -56,7 +59,6 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.unity.xr.management":"4.4.0"
+    "com.unity.modules.xr": "1.0.0"
   }
 }
