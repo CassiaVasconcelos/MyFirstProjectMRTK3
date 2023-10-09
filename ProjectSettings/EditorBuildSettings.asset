@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AzureSpeechServices.unity
+    guid: 5374555b70ffd16458efc7c03d17c235
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f3242d0e3bcf8e743acb353080e57c97, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 895f03d90048a0e45bcf66f012e95051, type: 2}
