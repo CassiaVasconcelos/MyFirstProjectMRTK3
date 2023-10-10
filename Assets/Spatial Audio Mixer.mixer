@@ -19,6 +19,7 @@ AudioMixerController:
   m_AudioMixerGroupViews:
   - guids:
     - 376c25d330b427545ae8de2f51f12f61
+    - d04da74249b15184287281a6df0de2de
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -31,7 +32,8 @@ AudioMixerGroupController:
   m_Name: Master
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 376c25d330b427545ae8de2f51f12f61
-  m_Children: []
+  m_Children:
+  - {fileID: 9036902294996627608}
   m_Volume: 537ffe16a19a33f4fbb41da724bf756d
   m_Pitch: 457b4e075e1366943932658f0ae14aa6
   m_Send: 00000000000000000000000000000000
@@ -65,8 +67,66 @@ AudioMixerSnapshotController:
   m_Name: Snapshot
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 095d6b6b6ad869e4bbaa69c432979f0c
-  m_FloatValues: {}
+  m_FloatValues:
+    1f9101f3459da984088a5800d8ea6325: 0
+    621d090b5a268ff46a8cd07822ab5d76: -10000
   m_TransitionOverrides: {}
+--- !u!244 &203167585249709215
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: b039b29043a621745bff737d3e216169
+  m_EffectName: Attenuation
+  m_MixLevel: 2f4142cf0c0fdb34da8d9db0939b9f8a
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &3024011222804670010
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 85df19f0683c2d44297b50123341b7c2
+  m_EffectName: SFX Reverb
+  m_MixLevel: 8eb3cc40770bec54ca23820c896249b5
+  m_Parameters:
+  - m_ParameterName: Dry Level
+    m_GUID: 621d090b5a268ff46a8cd07822ab5d76
+  - m_ParameterName: Room
+    m_GUID: 1f9101f3459da984088a5800d8ea6325
+  - m_ParameterName: Room HF
+    m_GUID: 7b0ff7fa19f9f7b4fb36e3b5901910ff
+  - m_ParameterName: Decay Time
+    m_GUID: 9f02883c7c64eed44bbdffbfa60693a3
+  - m_ParameterName: Decay HF Ratio
+    m_GUID: f6aab8994062d8845949e947ac591ca1
+  - m_ParameterName: Reflections
+    m_GUID: dadbe551a1bad5243a0adcc164d46393
+  - m_ParameterName: Reflect Delay
+    m_GUID: da1a4fc787a35784a82cc64bb06e6ab5
+  - m_ParameterName: Reverb
+    m_GUID: e6289c6c4ba6b3d4c8b57a3cb7a075c8
+  - m_ParameterName: Reverb Delay
+    m_GUID: ce0b8bb4764e198489bc7c3e8da439f6
+  - m_ParameterName: Diffusion
+    m_GUID: 571da1cd60f485d4b8c2b3c36c075c7c
+  - m_ParameterName: Density
+    m_GUID: cf6a5fb5ea13f974f97f7e4aeb22f6be
+  - m_ParameterName: HF Reference
+    m_GUID: ccf4f484ff0312445aa5c1939c4ccfd6
+  - m_ParameterName: Room LF
+    m_GUID: 539204653966b0b429019c16435dadbb
+  - m_ParameterName: LF Reference
+    m_GUID: 8b153ed76ec59e24392f627a846e551c
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &8792932841452568642
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -81,3 +141,23 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!243 &9036902294996627608
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Room Effect
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: d04da74249b15184287281a6df0de2de
+  m_Children: []
+  m_Volume: 9641037abf662244a9b373946a16931f
+  m_Pitch: 3f3ac145330eaad499f6c1ba8fd036ad
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 203167585249709215}
+  - {fileID: 3024011222804670010}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
