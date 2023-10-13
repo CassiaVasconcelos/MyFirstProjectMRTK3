@@ -43,7 +43,7 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Managers
         public async Task<TagCreationResult> CreateTag(string nameOfTag)
         {
             // https://docs.microsoft.com/en-us/rest/api/cognitiveservices/customvisiontraining/createtag/createtag
-            
+
             using (var client = new HttpClient())
             {
                 client.DefaultRequestHeaders.Add("Training-Key", apiKey);
@@ -106,7 +106,7 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Managers
             {
                 client.DefaultRequestHeaders.Add("Training-Key", apiKey);
                 var result = await client.PostAsync(
-                    $"https://testkleincustomvision.cognitiveservices.azure.com/customvision/v3.3/training/projects/{projectId}/train", null);
+                    $"{resourceBaseEndpoint}/customvision/v3.3/training/projects/{projectId}/train", null);
 
                 if (!result.IsSuccessStatusCode)
                 {
