@@ -77,3 +77,4 @@ crashlytics-build.properties
 # End of https://www.toptal.com/developers/gitignore/api/unity
 _build/
 Assets/SpeechSDK/Plugins/iOS/libMicrosoft.CognitiveServices.Speech.core.a
+

@@ -10,7 +10,9 @@ Welcome to MyFirstProjectMRTK3! This repository is a collection of projects deve
 
 Remember to use "Windows Universal Platform"
 
-- Introduction to the Mixed Reality Toolkit-Set Up Your Project and Use Hand Interaction. (Whitout Scene)
+- **Only the first module is in a separate project: ProjetoUnity1 -> IntroductionMixedReality**:
+
+- Introduction to the Mixed Reality Toolkit-Set Up Your Project and Use Hand Interaction.
 
 - **MyFirstProjectMRTK3**:
 
