@@ -7,8 +7,12 @@ Welcome to MyFirstProjectMRTK3! This repository is a collection of projects deve
 ## Project Overview
 
 ### Scenes Overview: Assets -> Scenes
+
+Remember to use "Windows Universal Platform"
+
+- Introduction to the Mixed Reality Toolkit-Set Up Your Project and Use Hand Interaction. (Whitout Scene)
+
 - **MyFirstProjectMRTK3**:
-    - Introduction to the Mixed Reality Toolkit-Set Up Your Project and Use Hand Interaction.
 
     - Place a Mars Rover object in the scene and work with grids and intelligent object tracking.
   
